@@ -1,5 +1,4 @@
 ---
-  become_method: sudo
   roles:
     - httpd
     - tomcat
