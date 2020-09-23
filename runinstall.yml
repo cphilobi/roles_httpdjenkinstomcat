@@ -1,0 +1,8 @@
+---
+- hosts: pwdev
+  become: yes
+  become_method: sudo
+  roles:
+    - httpd
+    - tomcat
+    - jenkins
